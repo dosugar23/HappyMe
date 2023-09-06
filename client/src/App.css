@@ -1,0 +1,47 @@
+*{
+  font-family: 'Nunito', sans-serif;
+  /* font-size: 20px; */
+}
+
+/* .bg-color-custom {
+  background-color: #28b661;
+}
+
+.bg-color-custom:hover {
+  background-color: #fff;
+  color: #28b661;
+  border: 1px solid #28b661;
+} */
+
+.bg-color-custom, .bg-color-custom:hover {
+  background-color: #28b661;
+}
+
+input{
+  outline: none;
+}
+
+input:hover{
+  border-color: #28b661;
+}
+
+.input-main:hover , .input-main:focus{
+  border-color: #28b661!important;
+}
+
+.form-input-register{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 75%;
+  gap: 20px;
+}
+
+.wrap-message{
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.ant-btn-primary{
+  background-color: #3498db!important;
+}
